@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 4%;
+    background-color: #f5f5f5;
+    margin-top: 70px; /* Adjust the margin-top to create space between the content box and the navbar */
+    max-width: 800px; /* Set a maximum width for the content box */
+    margin-left: auto; /* Center the content box horizontally */
+    margin-right: auto; /* Center the content box horizontally */
+}
+
+  
+  .heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #045a07;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #4a4a4a;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 0.2rem;
+  }
+  
+  .value {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+  }
