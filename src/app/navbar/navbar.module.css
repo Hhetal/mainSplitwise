@@ -1,76 +1,120 @@
- /* .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  .logo a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .navLinks {
-    list-style-type: none;
-    display: flex;
-  }
-  
-  .navLinks li {
-    margin-right: 1rem;
-  }
-  
-  .navLinks a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .navLinks a:hover {
-    text-decoration: underline;
-  }
-    */
+/* navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b3d4bc; /* Change background color to white */
+  color: white; /* Change text color to dark */
+  padding:1%; /* Adjust padding horizontally */
+  border-radius: 90px; /* Increase border-radius for a more rounded shape */
+  max-width:78%; /* Set a maximum width for the navbar */
+  margin: 0 auto; /* Center the navbar horizontally */
+}
 
 
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #b3d4bc; /* Change background color to white */
-      color: white; /* Change text color to dark */
-      padding: 1rem 2rem; /* Adjust padding horizontally */
-      border-radius: 90px; /* Increase border-radius for a more rounded shape */
-      max-width: 990px; /* Set a maximum width for the navbar */
-      margin: 0 auto; /* Center the navbar horizontally */
-    }
-    
-    .logo a {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #333; /* Change text color to dark */
-      text-decoration: none;
-    }
-    
-    .navLinks {
-      list-style-type: none;
-      display: flex;
-    }
-    
-    .navLinks li {
-      margin-right: 0.9rem
-    }
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
 
-    .navLinks a {
-      color: #333; /* Change text color to dark */
-      text-decoration: none;
-    }
-    
-    .navLinks a:hover {
-      text-decoration: underline;
-    }
-    
+.navUl {
+  text-decoration:dashed;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0; 
+  padding: 0; 
+  flex-wrap: nowrap;
+}
+
+.navLi {
+  color: #333; 
+  margin-right: 9px;
+}
+
+.navLi:last-child {
+  margin-right: 0;
+}
+
+.navLi a {
+  
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+   white-space: nowrap;
+ 
+}
+
+.navLi a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+}
 
 
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #b3d4bc;
+  padding: 0.5rem 0;
+  list-style: none;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+.subMenu {
+  padding:6%;
+  margin: auto;
+  width: auto; 
+}
+
+.subMenu a {
+  color: #fff;
+ 
+  text-decoration: none;
+}
+
+.subMenu a:hover {
+  text-decoration: underline;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
     

@@ -95,7 +95,7 @@ export default function SignupPage() {
             className="text-white font-bold cursor-pointer px-6 py-2"
             style={{ backgroundColor: "#045a07" }}
           >
-            Login
+            Register
           </button>
 
 

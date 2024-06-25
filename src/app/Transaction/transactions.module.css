@@ -1,0 +1,134 @@
+/* 
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 38px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 7%;
+} 
+
+.body {
+  font-family: Arial, sans-serif;
+}
+
+.h1styl{
+  text-align: center;
+}
+
+.h2Greenstyl {
+  text-align: center;
+  color: green;
+}
+
+.h2Redstyl {
+  text-align: center;
+  color: red;
+}
+
+.h3styl{
+  text-align: center;
+}
+
+.fromStyl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inp {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+.ulstyl {
+  list-style: none;
+  padding: 0;
+}
+
+.listyl {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.listyl span {
+  width: 100px;
+  text-align: right;
+}
+
+.btn2 {
+  margin-left: 10px;
+} */
+
+.container {
+  padding: 20px;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #005bb5;
+}
+

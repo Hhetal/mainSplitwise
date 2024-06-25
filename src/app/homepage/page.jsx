@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "../navbar/navbar";
 import styles from "../homepage/homepage.module.css"
 import Image from 'next/image';
-import getimage from "../../../images/2homepage.jpg";
+// import getimage from "../../../images/2homepage.jpg";
 import gif from "../../../images/GIFmain.gif";
 import Footer from "../footer/footer";
 
@@ -33,3 +33,6 @@ const Home = () => {
 
 export default Home;
 
+
+
+// export default Home;

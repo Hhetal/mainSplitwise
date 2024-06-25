@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/api/signup/route.jsx", "src/app/components/loginFrom.jsx", "src/app/components/loginFrom.jsx", "src/app/page.jsx", "src/app/navbar/navbar.jsxxx","src/app/navbar/navbar.jsxsxsx", "src/app/login/page.js", "src/app/api/login/route.js", "src/app/api/auth/[...nextauth]/route.js", "src/app/api/signup/route.js", "src/app/signup/page.jsx", "src/app/layout.jsx", "utils/database.js", "src/app/homepage/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/api/signup/route.jsx", "src/app/components/loginFrom.jsx", "src/app/components/loginFrom.jsx", "src/app/page.jsx", "src/app/navbar/navbar.jsxxx","src/app/navbar/navbar.jsxsxsx", "src/app/login/page.js", "src/app/api/login/route.js", "src/app/api/auth/[...nextauth]/route.js", "src/app/api/signup/route.js", "src/app/signup/page.jsx", "src/app/layout.jsx", "utils/database.jsx", "src/app/homepage/page.jsx", "src/app/api/transactions/route.js", "src/app/api/transactions/route.jsx"],
   "exclude": ["node_modules"]
 }

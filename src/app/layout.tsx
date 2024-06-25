@@ -68,8 +68,7 @@
 //     </html>
 //   );
 // }
-
-import Navbar from "../app/navbar/navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -91,8 +90,6 @@ export default async function RootLayout({
     <html lang="en">
       <body className={inter.className}>
          <AuthProvider>
-           
-           
             {children}
             </AuthProvider>
           
